@@ -1,0 +1,45 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+nav>div>div>img {
+    width: 50px;
+}
+
+nav>div>div>a {}
+
+.nav-link {
+    color: #6abde2;
+    font-weight: 150;
+    font-size: 150;
+}
+
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+    color: #6abde2;
+
+}
+
+/* .sticky-top {
+    position: -webkit-sticky    ;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+} */
+
+.bg-img {
+    width: 100%;
+
+
+}
+
+h2 {
+    font-weight: 100;
+}
