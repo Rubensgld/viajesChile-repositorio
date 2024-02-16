@@ -13,9 +13,9 @@ nav>div>div>img {
 
 h1 {
     margin: 3rem;
+    text-transform: uppercase;
 }
 
-nav>div>div>a {}
 
 .nav-link {
     color: #6abde2;
@@ -44,4 +44,10 @@ nav>div>div>a {}
     background-color: #6abde2;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+.destacados {
+    margin: 3rem;
+    text-transform: uppercase;
+
 }
