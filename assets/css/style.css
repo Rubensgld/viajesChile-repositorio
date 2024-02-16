@@ -11,6 +11,10 @@ nav>div>div>img {
     width: 50px;
 }
 
+h1 {
+    margin: 3rem;
+}
+
 nav>div>div>a {}
 
 .nav-link {
@@ -27,12 +31,6 @@ nav>div>div>a {}
 
 }
 
-/* .sticky-top {
-    position: -webkit-sticky    ;
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-} */
 
 .bg-img {
     width: 100%;
@@ -40,6 +38,10 @@ nav>div>div>a {}
 
 }
 
-h2 {
-    font-weight: 100;
+.avion,
+.montaña,
+.ruta {
+    background-color: #6abde2;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
