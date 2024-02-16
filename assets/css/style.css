@@ -46,8 +46,40 @@ h1 {
     padding-bottom: 0.5rem;
 }
 
-.destacados {
+.destacados,
+.contacto {
     margin: 3rem;
     text-transform: uppercase;
 
+}
+
+.btn {
+    background-color: #6abde2;
+}
+
+.boton {
+    background-color: #6abde2;
+}
+
+.container-fluid {
+    background-color: #6abde2;
+}
+
+.icono-github,
+.icono-link,
+.icono-x,
+.icono-facebook {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.icono-facebook {
+    margin-right: 12rem;
+}
+
+.chile-travels {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 12rem;
+    font-weight: 500;
 }

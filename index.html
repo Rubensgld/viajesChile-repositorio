@@ -39,10 +39,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link" href="#">Quiénes somos</a>
-                        <a class="nav-link" href="#">Destacados</a>
-                        <a class="nav-link" aria-disabled="true">Contacto</a>
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                        <a class="nav-link" href="#ancla1">Quiénes somos</a>
+                        <a class="nav-link" href="#ancla2">Destacados</a>
+                        <a class="nav-link" href="#ancla3">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
     <main>
         <section class="principal text-center">
             <article>
-                <h1>¿Quiénes somos?</h1>
+                <h1 id="quienes-somos"><a name="ancla1">¿Quiénes somos?</a></h1>
             </article>
 
         </section>
@@ -136,7 +136,7 @@
 
         <section class="container">
             <article class="destacados text-center">
-                <h2>Destacados</h2>
+                <h2><a name="ancla2">Destacados</a></h2>
             </article>
             <div class="row">
                 <article class="col-12 col-md-3">
@@ -181,8 +181,50 @@
             </div>
             </article>
         </section>
-    </main>
 
+        <section>
+
+            <article class="contacto text-center">
+                <h2><a name="ancla3">Contacto</a></h2>
+            </article>
+            <div class="container">
+                <article class="formulario p-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Nombre completo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="escribelElAsunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="escribelElAsunto" placeholder="Escribe el asunto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    </div>
+                    <button class="btn" type="submit">Enviar</button>
+                </article>
+            </div>
+        </section>
+
+    </main>
+    <footer class="container-fluid">
+        <h3 class="chile-travels">Chile Travels</h3>
+        <div class="iconos text-end">
+            <div class="icono-github">
+                <i class="fa-brands fa-github fa-2x"></i>
+            </div>
+            <div class="icono-link">
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+            </div>
+            <div class="icono-x">
+                <i class="fa-brands fa-x-twitter fa-2x"></i>
+            </div>
+            <div class="icono-facebook">
+                <i class="fa-brands fa-square-facebook fa-2x"></i>
+            </div>
+        </div>
+    </footer>
 
 
 
