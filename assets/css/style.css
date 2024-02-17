@@ -1,10 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+
 }
 
 nav>div>div>img {
@@ -15,8 +11,6 @@ h1 {
     margin: 3rem;
     text-transform: uppercase;
 }
-
-h3 {}
 
 .nav-link {
     color: white;
@@ -78,8 +72,6 @@ h3 {}
     display: inline-block;
     padding: 1rem;
 }
-
-
 
 .chile-travels {
     margin-top: 1rem;
