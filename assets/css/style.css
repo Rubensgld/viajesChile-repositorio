@@ -83,3 +83,7 @@ h1 {
     margin-left: 12rem;
     font-weight: 500;
 }
+
+.card-img-top {
+    height: 200px;
+}
