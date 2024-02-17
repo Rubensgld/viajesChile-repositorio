@@ -25,4 +25,35 @@ $(document).ready(function () {
         $(this).css("color", "#fff")
     })
     console.log("ready!");
-});
+
+    let form = document.querySelector("#form")
+    let btn = document.querySelector("#bottom")
+
+    function validar() {
+        let deshabilitar = false
+
+        if (form.exampleFormControlInput1.value == "") {
+            deshabilitar = true
+        }
+        if (form.escribelElAsunto.value == "") {
+            deshabilitar = true
+        }
+        if (form.exampleFormControlTextarea1.value == "") {
+            deshabilitar = true
+        }
+        if (deshabilitar == true) {
+            btn.disabled = true
+        } else {
+            btn.disabled = false
+        }
+    }
+
+
+    form.addEventListener("keyup", validar)
+
+
+
+
+
+
+})

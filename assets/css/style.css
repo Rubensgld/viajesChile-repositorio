@@ -16,11 +16,17 @@ h1 {
     text-transform: uppercase;
 }
 
+h3 {}
 
 .nav-link {
-    color: #6abde2;
-    font-weight: 150;
+    color: white;
+    font-weight: 300;
     font-size: 150;
+
+}
+
+.bg-navbar {
+    background-color: rgba(0, 0, 0, 0.432);
 }
 
 
@@ -73,17 +79,18 @@ h1 {
     padding: 1rem;
 }
 
-.icono-facebook {
-    margin-right: 12rem;
-}
+
 
 .chile-travels {
-    position: absolute;
     margin-top: 1rem;
-    margin-left: 12rem;
+
     font-weight: 500;
 }
 
 .card-img-top {
     height: 200px;
+}
+
+.card-body {
+    background-color: #6abde2;
 }
